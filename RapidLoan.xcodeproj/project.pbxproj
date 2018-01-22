@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84790A5E20157D0200F2D557 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84790A5D20157D0200F2D557 /* AppDelegate.m */; };
+		84790A6120157D0200F2D557 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84790A6020157D0200F2D557 /* ViewController.m */; };
+		84790A6420157D0200F2D557 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84790A6220157D0200F2D557 /* Main.storyboard */; };
+		84790A6620157D0200F2D557 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84790A6520157D0200F2D557 /* Assets.xcassets */; };
+		84790A6920157D0200F2D557 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84790A6720157D0200F2D557 /* LaunchScreen.storyboard */; };
+		84790A6C20157D0200F2D557 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84790A6B20157D0200F2D557 /* main.m */; };
+		84790A7620157D0200F2D557 /* RapidLoanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84790A7520157D0200F2D557 /* RapidLoanTests.m */; };
+		84790A8120157D0200F2D557 /* RapidLoanUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84790A8020157D0200F2D557 /* RapidLoanUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84790A7220157D0200F2D557 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84790A5120157D0200F2D557 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84790A5820157D0200F2D557;
+			remoteInfo = RapidLoan;
+		};
+		84790A7D20157D0200F2D557 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84790A5120157D0200F2D557 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84790A5820157D0200F2D557;
+			remoteInfo = RapidLoan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84790A5920157D0200F2D557 /* RapidLoan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RapidLoan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84790A5C20157D0200F2D557 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84790A5D20157D0200F2D557 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84790A5F20157D0200F2D557 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84790A6020157D0200F2D557 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84790A6320157D0200F2D557 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84790A6520157D0200F2D557 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84790A6820157D0200F2D557 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84790A6A20157D0200F2D557 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84790A6B20157D0200F2D557 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84790A7120157D0200F2D557 /* RapidLoanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RapidLoanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84790A7520157D0200F2D557 /* RapidLoanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RapidLoanTests.m; sourceTree = "<group>"; };
+		84790A7720157D0200F2D557 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84790A7C20157D0200F2D557 /* RapidLoanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RapidLoanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84790A8020157D0200F2D557 /* RapidLoanUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RapidLoanUITests.m; sourceTree = "<group>"; };
+		84790A8220157D0200F2D557 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84790A5620157D0200F2D557 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84790A6E20157D0200F2D557 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84790A7920157D0200F2D557 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84790A5020157D0200F2D557 = {
+			isa = PBXGroup;
+			children = (
+				84790A5B20157D0200F2D557 /* RapidLoan */,
+				84790A7420157D0200F2D557 /* RapidLoanTests */,
+				84790A7F20157D0200F2D557 /* RapidLoanUITests */,
+				84790A5A20157D0200F2D557 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84790A5A20157D0200F2D557 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84790A5920157D0200F2D557 /* RapidLoan.app */,
+				84790A7120157D0200F2D557 /* RapidLoanTests.xctest */,
+				84790A7C20157D0200F2D557 /* RapidLoanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84790A5B20157D0200F2D557 /* RapidLoan */ = {
+			isa = PBXGroup;
+			children = (
+				84790A5C20157D0200F2D557 /* AppDelegate.h */,
+				84790A5D20157D0200F2D557 /* AppDelegate.m */,
+				84790A5F20157D0200F2D557 /* ViewController.h */,
+				84790A6020157D0200F2D557 /* ViewController.m */,
+				84790A6220157D0200F2D557 /* Main.storyboard */,
+				84790A6520157D0200F2D557 /* Assets.xcassets */,
+				84790A6720157D0200F2D557 /* LaunchScreen.storyboard */,
+				84790A6A20157D0200F2D557 /* Info.plist */,
+				84790A6B20157D0200F2D557 /* main.m */,
+			);
+			path = RapidLoan;
+			sourceTree = "<group>";
+		};
+		84790A7420157D0200F2D557 /* RapidLoanTests */ = {
+			isa = PBXGroup;
+			children = (
+				84790A7520157D0200F2D557 /* RapidLoanTests.m */,
+				84790A7720157D0200F2D557 /* Info.plist */,
+			);
+			path = RapidLoanTests;
+			sourceTree = "<group>";
+		};
+		84790A7F20157D0200F2D557 /* RapidLoanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84790A8020157D0200F2D557 /* RapidLoanUITests.m */,
+				84790A8220157D0200F2D557 /* Info.plist */,
+			);
+			path = RapidLoanUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84790A5820157D0200F2D557 /* RapidLoan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84790A8520157D0200F2D557 /* Build configuration list for PBXNativeTarget "RapidLoan" */;
+			buildPhases = (
+				84790A5520157D0200F2D557 /* Sources */,
+				84790A5620157D0200F2D557 /* Frameworks */,
+				84790A5720157D0200F2D557 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RapidLoan;
+			productName = RapidLoan;
+			productReference = 84790A5920157D0200F2D557 /* RapidLoan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84790A7020157D0200F2D557 /* RapidLoanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84790A8820157D0200F2D557 /* Build configuration list for PBXNativeTarget "RapidLoanTests" */;
+			buildPhases = (
+				84790A6D20157D0200F2D557 /* Sources */,
+				84790A6E20157D0200F2D557 /* Frameworks */,
+				84790A6F20157D0200F2D557 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84790A7320157D0200F2D557 /* PBXTargetDependency */,
+			);
+			name = RapidLoanTests;
+			productName = RapidLoanTests;
+			productReference = 84790A7120157D0200F2D557 /* RapidLoanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84790A7B20157D0200F2D557 /* RapidLoanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84790A8B20157D0200F2D557 /* Build configuration list for PBXNativeTarget "RapidLoanUITests" */;
+			buildPhases = (
+				84790A7820157D0200F2D557 /* Sources */,
+				84790A7920157D0200F2D557 /* Frameworks */,
+				84790A7A20157D0200F2D557 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84790A7E20157D0200F2D557 /* PBXTargetDependency */,
+			);
+			name = RapidLoanUITests;
+			productName = RapidLoanUITests;
+			productReference = 84790A7C20157D0200F2D557 /* RapidLoanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84790A5120157D0200F2D557 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = admin;
+				TargetAttributes = {
+					84790A5820157D0200F2D557 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					84790A7020157D0200F2D557 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84790A5820157D0200F2D557;
+					};
+					84790A7B20157D0200F2D557 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84790A5820157D0200F2D557;
+					};
+				};
+			};
+			buildConfigurationList = 84790A5420157D0200F2D557 /* Build configuration list for PBXProject "RapidLoan" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84790A5020157D0200F2D557;
+			productRefGroup = 84790A5A20157D0200F2D557 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84790A5820157D0200F2D557 /* RapidLoan */,
+				84790A7020157D0200F2D557 /* RapidLoanTests */,
+				84790A7B20157D0200F2D557 /* RapidLoanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84790A5720157D0200F2D557 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84790A6920157D0200F2D557 /* LaunchScreen.storyboard in Resources */,
+				84790A6620157D0200F2D557 /* Assets.xcassets in Resources */,
+				84790A6420157D0200F2D557 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84790A6F20157D0200F2D557 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84790A7A20157D0200F2D557 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84790A5520157D0200F2D557 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84790A6120157D0200F2D557 /* ViewController.m in Sources */,
+				84790A6C20157D0200F2D557 /* main.m in Sources */,
+				84790A5E20157D0200F2D557 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84790A6D20157D0200F2D557 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84790A7620157D0200F2D557 /* RapidLoanTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84790A7820157D0200F2D557 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84790A8120157D0200F2D557 /* RapidLoanUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84790A7320157D0200F2D557 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84790A5820157D0200F2D557 /* RapidLoan */;
+			targetProxy = 84790A7220157D0200F2D557 /* PBXContainerItemProxy */;
+		};
+		84790A7E20157D0200F2D557 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84790A5820157D0200F2D557 /* RapidLoan */;
+			targetProxy = 84790A7D20157D0200F2D557 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84790A6220157D0200F2D557 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84790A6320157D0200F2D557 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84790A6720157D0200F2D557 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84790A6820157D0200F2D557 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84790A8320157D0200F2D557 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84790A8420157D0200F2D557 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84790A8620157D0200F2D557 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L7D6XM9AHF;
+				INFOPLIST_FILE = RapidLoan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yunmei.RapidLoan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84790A8720157D0200F2D557 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L7D6XM9AHF;
+				INFOPLIST_FILE = RapidLoan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yunmei.RapidLoan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84790A8920157D0200F2D557 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L7D6XM9AHF;
+				INFOPLIST_FILE = RapidLoanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yunmei.RapidLoanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RapidLoan.app/RapidLoan";
+			};
+			name = Debug;
+		};
+		84790A8A20157D0200F2D557 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L7D6XM9AHF;
+				INFOPLIST_FILE = RapidLoanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yunmei.RapidLoanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RapidLoan.app/RapidLoan";
+			};
+			name = Release;
+		};
+		84790A8C20157D0200F2D557 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L7D6XM9AHF;
+				INFOPLIST_FILE = RapidLoanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yunmei.RapidLoanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RapidLoan;
+			};
+			name = Debug;
+		};
+		84790A8D20157D0200F2D557 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L7D6XM9AHF;
+				INFOPLIST_FILE = RapidLoanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yunmei.RapidLoanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RapidLoan;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84790A5420157D0200F2D557 /* Build configuration list for PBXProject "RapidLoan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84790A8320157D0200F2D557 /* Debug */,
+				84790A8420157D0200F2D557 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84790A8520157D0200F2D557 /* Build configuration list for PBXNativeTarget "RapidLoan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84790A8620157D0200F2D557 /* Debug */,
+				84790A8720157D0200F2D557 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84790A8820157D0200F2D557 /* Build configuration list for PBXNativeTarget "RapidLoanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84790A8920157D0200F2D557 /* Debug */,
+				84790A8A20157D0200F2D557 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84790A8B20157D0200F2D557 /* Build configuration list for PBXNativeTarget "RapidLoanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84790A8C20157D0200F2D557 /* Debug */,
+				84790A8D20157D0200F2D557 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84790A5120157D0200F2D557 /* Project object */;
+}
