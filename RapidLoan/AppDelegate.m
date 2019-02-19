@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "HomeViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,9 +17,17 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    NSString *userId =getUserID;
+    
+    [SVProgressHUD setDefaultStyle:SVProgressHUDStyleDark];
+
+        HomeViewController *viewController =[[HomeViewController alloc]init];
+        UINavigationController *nav =[[UINavigationController alloc]initWithRootViewController:viewController];
+        nav.navigationBar.hidden =YES;
+        self.window.rootViewController =nav;
+
     return YES;
 }
-
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
